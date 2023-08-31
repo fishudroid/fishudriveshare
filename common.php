@@ -1366,7 +1366,7 @@ function EnvOpt($needUpdate = 0) {
     //foreach ($EnvConfigs as $env => $v) if (isCommonEnv($env)) $envs .= '\'' . $env . '\', ';
     $envs = substr(json_encode(array_keys($EnvConfigs)), 1, -1);
 
-    $html = '<title>Fishu OneDrive Share ' . getconstStr('Setup') . '</title>';
+    $html = '<title>FishuOneDriveShare ' . getconstStr('Setup') . '</title>';
     if (isset($_POST['updateProgram']) && $_POST['updateProgram'] == getconstStr('updateProgram')) if (compareadminmd5('admin', getConfig('admin'), $_COOKIE['admin'], $_POST['_admin'])) {
         $response = setConfigResponse(OnekeyUpate($_POST['GitSource'], $_POST['auth'], $_POST['project'], $_POST['branch']));
         if (api_error($response)) {
