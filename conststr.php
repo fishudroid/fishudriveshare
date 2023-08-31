@@ -686,7 +686,7 @@ $constStr = [
         'ar-sa' => 'دليل أو اسم الملف يحتوي على تحميل فشلت',
     ],
     'defaultSitename' => [
-        'en-us' => 'FishuOneDriveShare',
+        'en-us' => 'RyukShareDrive',
     ],
     'SavingToken' => [
         'en-us' => 'Saving refresh_token!',
